@@ -36,7 +36,7 @@ function site(country, _age, pay){
   }
   
   for(i = 0; i < country.length; i++){
-    if(y === country[i]){
+    if(y == country[i]){
       break;
     } else{
       continue;
@@ -45,7 +45,7 @@ function site(country, _age, pay){
   }
   
   for (u = 0; u < pay.length; u++) {
-    if (z === country[u]) {
+    if (z === pay[u]) {
       break;
     } else {
       continue;
